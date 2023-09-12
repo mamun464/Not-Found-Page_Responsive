@@ -6,6 +6,7 @@ body {
     display: flex;
     margin-top: 200px;
     margin-left: 77px;
+    padding-bottom: 200px;
 }
 
 .kaktaru img {
