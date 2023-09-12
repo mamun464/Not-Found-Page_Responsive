@@ -1,0 +1,92 @@
+body {
+    font-family: 'Space Mono', monospace;
+}
+
+.container {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 77px;
+}
+
+.kaktaru img {
+    width: 80%;
+}
+
+.not-found {
+    margin-top: 40px;
+    margin-left: 77px;
+
+    color: #333;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+}
+
+.title {
+    color: #333333;
+    font-family: Space Mono;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -2.24px;
+    width: 586px;
+}
+
+.despt {
+    color: #4F4F4F;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.84px;
+    width: 381px;
+}
+
+.btn-primary {
+    width: 216px;
+    height: 68px;
+    background: #333;
+
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+    margin-top: 64px;
+}
+
+@media screen and (max-width:576px) {
+    .container {
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 24px;
+    }
+
+    /* .title{
+        width: 92%;
+    } */
+    .not-found {
+        margin-top: 20px;
+        margin-left: 24px;
+    }
+
+    .kaktaru {
+        margin-left: 20px;
+    }
+
+    .title {
+        color: #333;
+        font-size: 48px;
+        font-weight: 700;
+        letter-spacing: -1.68px;
+        width: 350px;
+    }
+
+    .despt {
+        color:  #4F4F4F;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: -0.63px;
+        width: 328px;
+    }
+}
