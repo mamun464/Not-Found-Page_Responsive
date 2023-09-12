@@ -11,12 +11,12 @@ body {
 }
 
 .kaktaru img {
-    width: 50%;
+    width: 400px;
 }
 
 
 .left-container {
-    margin-left: 0px;
+    margin-left: 300px;
 }
 
 .not-found {
@@ -82,7 +82,9 @@ body {
         display: flex;
         justify-content: center;
     }
-
+    .left-container {
+        margin-left: 0px;
+    }
 
 
     .title {
